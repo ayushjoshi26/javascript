@@ -3,8 +3,3 @@ let account_name = "Ayush joshi"; // this is highly recommend to use this variab
 var city_name = "new delhi";
 
 console.table([account_name, account_id, city_name]); // this is used to print in a tabular form.
-
-/* 
-   let:  
-
-*/
