@@ -25,3 +25,28 @@ const intro = {
 const sumfunction = function (){
     console.log("hello world");
 }
+
+
+// Stacks(primitive) and Heaps(non-primitive/refrence)
+
+//Stacks: its a static memory allocation for primitive datatypes.
+//Heaps: its is a dynamically memmory allocation for non-primitive Datatype 
+
+let myName = "ayush joshi"
+let anotherName = myName // its a copy of myName variable so if you change the value so its not affect ot the original variable.
+anotherName = "Akash joshi"
+
+// console.log(myName)
+// console.log(anotherName)
+
+let userOne = {
+    name: "ayush joshi",
+    age: 19
+}
+
+let usertwo = userOne
+usertwo.name = "rohit singh"
+
+console.log(userOne.name)
+console.log(usertwo.name)
+//when you change the value in heap so its affect the original one value like above exmaple of the object.
