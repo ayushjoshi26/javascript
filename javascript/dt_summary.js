@@ -23,7 +23,5 @@ const intro = {
 }
 
 const sumfunction = function (){
-    comsole.log("hello world");
+    console.log("hello world");
 }
-
-console.log(sumfunction)
