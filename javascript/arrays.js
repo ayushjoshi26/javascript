@@ -16,5 +16,16 @@ let myArr2 = Array(1,2,3,4,5)
 // console.log(arr1.indexOf(4)) // It is show the index number of the value that you insert in it.
 
 let newArr = arr1.join() // its show the array value in a string. 
-console.log(arr1)
-console.log(newArr)
+// console.log(arr1)
+// console.log(newArr)
+
+
+// slice and splice 
+
+const arr3 = [1,2,3,4,5]
+
+console.log(arr3.slice(1,4)) // it not take the end value and its make a shallow copy of the array not affect on the og array.
+console.log( "A ", arr3)
+
+console.log(arr3.splice(1,3,))// its remove the value and replace the value in the original array.
+console.log("B ",arr3)
