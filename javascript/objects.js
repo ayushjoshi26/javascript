@@ -30,5 +30,33 @@ newUser.greetingTwo = function(){
 
 console.log(newUser.greeting());
 console.log(newUser.greetingTwo());
+
+
+//singleton obejct 
+ 
+const youtube = new Object()
+// const youtube1 = {}
+
+youtube.userID = "123abc"
+youtube.userName = "Ramesh"
+youtube.userEmail = "ramesh@gmail.com"
+
+// console.log(youtube);
+
+
+const randomUser = {
+    email: "random@gmail.com",
+    randomName: {
+        fullName: {
+            firstName: "Ayush",
+            LastName: "Joshi"
+        }
+    }
+}
+
+console.log(randomUser.randomName.fullName.firstName);
+
+
+
  
 
