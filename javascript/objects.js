@@ -87,3 +87,13 @@ const  obj5 = [
 
 // console.log(newUser.hasOwnProperty('email')) It is used to check the property if it exist in the object.
 
+//destructuring:  Is a feature that allows you to extract data from arrays, objects and Maps.
+
+const Course = {
+    coursename: "Javascript",
+    coursePrice: 999,
+    courseInstructor: "Ayush joshi"
+}
+
+const {courseInstructor: Instructor} = Course // destructuring in object {} this bracket is denoted the destructuring in js
+console.log(Instructor)
