@@ -97,3 +97,11 @@ const Course = {
 
 const {courseInstructor: Instructor} = Course // destructuring in object {} this bracket is denoted the destructuring in js
 console.log(Instructor)
+
+
+//json api intro
+
+// {
+//     "name": "ayush joshi",
+//     "email": "ayush@gmail.com", 
+// }
