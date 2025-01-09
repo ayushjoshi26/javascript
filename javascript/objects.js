@@ -21,15 +21,15 @@ newUser.email = "aj@gmail.com" // it is not execte because, we freeze the code b
 // console.log(newUser)
 
 newUser.greeting = function(){
-    console.log("hello JS user")
+    // console.log("hello JS user")
 }
 
 newUser.greetingTwo = function(){
-    console.log(`hello JS user ${this.name}`) //this: It is used to target the object to used the key value.
+    // console.log(`hello JS user ${this.name}`) //this: It is used to target the object to used the key value.
 }
 
-console.log(newUser.greeting());
-console.log(newUser.greetingTwo());
+// console.log(newUser.greeting());
+// console.log(newUser.greetingTwo());
 
 
 //singleton obejct 
@@ -54,9 +54,36 @@ const randomUser = {
     }
 }
 
-console.log(randomUser.randomName.fullName.firstName);
+// console.log(randomUser.randomName.fullName.firstName);
+
+const obj1 = {a: 1, b: 2}
+const obj2 = {c: 1, d: 2}
+const obj3 = {e: 1, f: 2}
+
+const obj4 = {...obj1, ...obj2, ...obj3} // spread operator
+// console.log(obj4)
 
 
+const  obj5 = [
+    {
+        id: 12,
+        email: "h@gmail.com"
+    },
+    {
+        id: 13,
+        email: "i@gmail.com"
+    },
+    {
+        id: 14,
+        email: "j@gmial.com"
+    }
+]
 
- 
+// console.log(obj5)
+
+// console.log(Object.keys(newUser))
+// console.log(Object.values(newUser))
+// console.log(Object.entries(newUser))
+
+// console.log(newUser.hasOwnProperty('email')) It is used to check the property if it exist in the object.
 
