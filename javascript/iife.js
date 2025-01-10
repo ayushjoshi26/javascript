@@ -9,4 +9,9 @@
 
 (function Two(){
     console.log("DB connected Two")
-})()
+})();
+
+
+(function three(name){
+    console.log(`welcome to our website ${name}`) // this enter you argument like the normal function.
+})('Ayush joshi')
