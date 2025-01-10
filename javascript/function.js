@@ -32,7 +32,24 @@ function userloginInfo (username){
 
 // if you add a another print value after the retrun value in the func so its not excute. 
 
+function restOp (...num1){
+    return num1
+}
 
+// console.log(restOp(200 ,100, 4000, 3000, 500, 6000))
+
+//Rest OP: It is used to make a bundle of diffrent type of value in a one like above example.
+
+const userInfo = {
+    Name: "Ayush",
+    price: 199
+}
+
+function user1 (anyobject){
+    console.log(`Username is ${anyobject.Name} and his course price is ${anyobject.price}.`)
+}
+
+// user1(userInfo)
 
 
 
