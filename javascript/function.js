@@ -27,7 +27,10 @@ function userloginInfo (username){
     return `${username} just logged in.`
 }
 
-console.log(userloginInfo("Ayush"))
+// console.log(userloginInfo("Ayush")
+
+
+// if you add a another print value after the retrun value in the func so its not excute. 
 
 
 
